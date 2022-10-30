@@ -10,7 +10,6 @@ const Alert = React.forwardRef(function Alert(props, ref) {
 });
 
 export default function CustomAlert(o) {
-    console.log(o)
     const [open, setOpen] = useState(false);
     useEffect(() => {
         setOpen(o?.options?.enable ?? false)

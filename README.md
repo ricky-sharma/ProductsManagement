@@ -4,17 +4,22 @@ The Project is created using below tech stack:
 - React (Frontend)
 - DotNet Core - .Net 6.0 Framework (backend)
 - Entity Framework (Code First approach)
-- SQL Server Database
+- SQL Server Database 2019
 - xUnit Code Tests (Fluent Assertions and Microsoft.EntityFrameworkCore.InMemory)
+- Microsoft Visual Studio 2022
 
 
 Prerequisites:
 
-- Please update the Database connection string as per your Database configuration.
+- Microsoft Visual Studio
+- SQL Database Server
+- Please update the database connection string as per your database configuration.
 Currently the below configuration is set in appsettings.json file in ProductsManagement project folder.
 
 "ConnectionStrings": {
     "DefaultConnection": "Data Source=.;Initial Catalog=ProductsManagement;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework;"
   }
 
-- To run the project, please open the project in Visual studio and click Run in Visual studio.
+- To run the project, please open the project in Visual studio and click run in Visual studio.
+
+- On the first run, it will take some time for the project to restore nuget and npm dependencies and to create database in SQL Server.
