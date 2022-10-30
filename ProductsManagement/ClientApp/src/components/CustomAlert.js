@@ -38,7 +38,7 @@ export default function CustomAlert(o) {
     return (
         <Snackbar open={open}
             anchorOrigin={{ vertical: 'top', horizontal: 'center' }}
-            autoHideDuration={o?.options?.duration == 0 ? null : 5000}
+            autoHideDuration={o?.options?.duration === 0 ? null : 5000}
             onClose={handleClose}
             key='topcenter'
             message={(o?.options?.enableAction ? (o?.options?.message ?? "success") : '')}
