@@ -2,7 +2,9 @@
 
 The Project is created using below tech stack:
 - React.js (Frontend)
+- Material UI
 - DotNet Core - .Net 6.0 Framework (backend)
+- Web API Controller
 - Entity Framework (Code First approach)
 - SQL Server Database 2019
 - xUnit Code Tests (Fluent Assertions and Microsoft.EntityFrameworkCore.InMemory)
