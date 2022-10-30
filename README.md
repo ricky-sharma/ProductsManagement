@@ -1,7 +1,7 @@
 # Products Management
 
 The Project is created using below tech stack:
-- React (Frontend)
+- React.js (Frontend)
 - DotNet Core - .Net 6.0 Framework (backend)
 - Entity Framework (Code First approach)
 - SQL Server Database 2019
@@ -13,7 +13,7 @@ Prerequisites:
 
 - Microsoft Visual Studio
 - SQL Database Server
-- Please install Node.js for running the project
+- Please install Node.js for running the project. 
   https://nodejs.org/en/download/
 - Please update the database connection string as per your database configuration. Currently the below configuration is set in appsettings.json file in ProductsManagement project folder.
 
