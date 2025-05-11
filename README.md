@@ -2,6 +2,13 @@
 
 ### 📦 Products Management
 
+[![License: BSD-3-Clause](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+[![GitHub forks](https://img.shields.io/github/forks/ricky-sharma/ProductsManagement?style=social)](https://github.com/ricky-sharma/ProductsManagement/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/ricky-sharma/ProductsManagement?style=social)](https://github.com/ricky-sharma/ProductsManagement/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/ricky-sharma/ProductsManagement)](https://github.com/ricky-sharma/ProductsManagement/issues)
+[![GitHub downloads](https://img.shields.io/github/downloads/ricky-sharma/ProductsManagement/total)](https://github.com/ricky-sharma/ProductsManagement/releases)
+
+
 A full-stack web application for managing product inventory, built using **ASP.NET Core** for the backend and **React.js** for the frontend. It supports CRUD operations, responsive UI, and a scalable architecture suited for warehouse or e-commerce platforms.
 
 ---
